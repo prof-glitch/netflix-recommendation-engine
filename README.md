@@ -17,6 +17,20 @@ The project includes a Streamlit web application with movie posters fetched from
 - Handles invalid User IDs
 - Deployed online using Streamlit Community Cloud
 
+## Screenshots
+
+### App Interface
+
+![App Interface](screenshots/Screenshot%202026-08-11%20224145.png)
+
+### Recommendation Results
+
+![Recommendation Results](screenshots/Screenshot%202026-08-11%20224216.png)
+
+### Movie Recommendations
+
+![Movie Recommendations](screenshots/Screenshot%202026-08-11%20224421.png)
+
 ## Problem Statement
 
 With a large number of movies available, users can find it difficult to decide what to watch. The goal of this project is to build a recommendation system that uses a user's previous movie ratings to predict their preferences and recommend movies they have not watched yet.
