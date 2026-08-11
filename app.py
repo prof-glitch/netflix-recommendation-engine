@@ -44,7 +44,8 @@ st.caption("Enter a user id below and let the svd model find you the movie you w
 st.markdown("---")
 user_id=st.number_input("ENTER USER ID TO GET MOVIE RECOMMENDATIONS",min_value=1,step=1)
 recommend_button=st.button("🎬Give Recommendations")
-tmdb_token = st.secrets["TMDB_TOKKEN"]
+
+tmdb_token=st.secrets["TMDB_TOKEN"]
 def get_poster(movie_name):
     if "poster_cache" not in st.session_state:
         st.session_state.poster_cache={}
