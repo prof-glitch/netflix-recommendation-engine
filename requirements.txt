@@ -1,0 +1,4 @@
+Pandas
+streamlit
+scikit-surprise
+requests
