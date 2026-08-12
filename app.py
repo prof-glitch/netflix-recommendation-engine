@@ -42,7 +42,8 @@ st.title("🎬 Netflix Recommendation Engine")
 st.markdown("persoalized movie recommendations powered by Collaborative Filtering (SVD)")
 st.caption("Enter a user id below and let the svd model find you the movie you would love")
 st.markdown("---")
-user_id=st.number_input("ENTER USER ID TO GET MOVIE RECOMMENDATIONS",min_value=1,step=1)
+user_id=st.selectbox("SELECT USER ID TO GET MOVIE RECOMMENDATIONS",[6,8,25])
+st.caption("Try User ID 6, 8, or 25 to test the recommendation system.")
 recommend_button=st.button("🎬Give Recommendations")
 
 tmdb_token=st.secrets["TMDB_TOKEN"]
